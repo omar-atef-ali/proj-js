@@ -1,0 +1,128 @@
+<html>
+    <head>
+        <title>proj.js</title>
+        <link rel="stylesheet" href="./css/all.css">
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+        <header>
+            <div class="nav">
+                <a class="home" href="index.html">home</a>
+                <div class="name">
+                    <p class="welcome">welcome <span class="span-name"></span></p>
+                </div>
+                
+                <div class="info">
+                    <ul class="info-ul">
+                        
+                        <li><a href="login.html">login</a></li>
+                        <li><a href="register.html">register</a></li>
+
+                    </ul>
+                    <ul class="info-ul2">
+                        <li>
+                            <i class="fa-solid fa-cart-shopping cart-shopping"></i>
+                            <span class="number"></span>
+                            <div class="cart-products">
+                                <div class="cart-names" style="font-family: Georgia, 'Times New Roman', Times, serif;" >
+                                    
+                                </div>
+                                <a class="show-item fs-5" href="cart.html">show items</a>
+                            </div>
+
+                        </li>
+                        <li class="logout"><a href="">logout</a></li>
+                        
+
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+
+        <!-- ///////////////////////////////////////////////////////////////////////// -->
+
+        <!-- search par -->
+
+        <div class="select-div">
+            <select class="form-select form-select-sm select " aria-label=".form-select-sm example">
+                    
+                <option value="name">by name</option>
+                <option value="category">by category</option>
+                
+            </select>
+            <input class="form-control me-2 " id="search" type="text" placeholder="Search" onkeyup="search()">
+        </div>
+        
+
+        <!-- ////////////////////////////////////////////////////////////////////// -->
+
+        <!-- items -->
+
+
+        <div class="container allproducts mt-4 ">
+            <div class="section">
+                <div class="product">
+                    <img src="./photos/375x500.30915.jpg" alt="">
+                    <div style="width: 100%; height: 90px; font-size: 20px; padding-left: 15px; font-family: Georgia, 'Times New Roman', Times, serif;" class="description">
+                        <p style="font-weight: bold; font-size: 17px;" class="product-name">product: Solo Yanbal</p>
+                        <p style="margin-top: -10px; font-weight: bold; font-size: 17px;" class="Category">category: men</p>
+                        <p style="margin-top: -10px; font-weight: bold; font-size: 17px;">price: $52</p>
+                        <div class="content" style="display: flex; justify-content: space-between;">
+                            <button type="button" class="btn-sm btn-primary addbtn">add to cart</button>
+                            <button type="button" class="btn-sm btn-danger removebtn">remove</button>
+                            <i class="fa-regular fa-heart hearticon" style="margin-right: 20px; "></i>
+                        </div>
+                    </div>
+
+                </div>
+                
+            </div>
+            <div class="section2 mt-2">
+                <div class="product">
+                    <img src="./photos/1699477052-parfums-de-marly-delina-654bf6216e62a.avif" alt="">
+                    <div style="width: 100%; height: 90px; font-size: 20px; padding-left: 15px; font-family: Georgia, 'Times New Roman', Times, serif;" class="description">
+                        <p style="font-weight: bold; font-size: 17px;" class="product-name">product: Solo Yanbal</p>
+                        <p style="margin-top: -10px; font-weight: bold; font-size: 17px;" class="Category">category: men</p>
+                        <p style="margin-top: -10px; font-weight: bold; font-size: 17px;">price: $52</p>
+                        <div class="content" style="display: flex; justify-content: space-between;">
+                            <button type="button" class="btn-sm btn-primary addbtn">add to cart</button>
+                            <button type="button" class="btn-sm btn-danger removebtn">remove</button>
+                            
+                            <i class="fa-regular fa-heart hearticon" style="margin-right: 20px;"></i>
+                        </div>
+                    </div>
+
+                </div>
+                
+            </div>
+            <div class="section3 mt-2">
+                <div class="product">
+                    <img src="./photos/Sprinkle.webp" alt="">
+                    <div style="width: 100%; height: 90px; font-size: 20px; padding-left: 15px; font-family: Georgia, 'Times New Roman', Times, serif;" class="description">
+                        <p style="font-weight: bold; font-size: 17px;" class="product-name">product: Solo Yanbal</p>
+                        <p style="margin-top: -10px; font-weight: bold; font-size: 17px;" class="Category">category: men</p>
+                        <p style="margin-top: -10px; font-weight: bold; font-size: 17px;">price: $52</p>
+                        <div class="content" style="display: flex; justify-content: space-between;">
+                            <button type="button" class="btn-sm btn-primary addbtn">add to cart</button>
+                            <button type="button" class="btn-sm btn-danger removebtn">remove</button>
+                            <i class="fa-regular fa-heart hearticon" style="margin-right: 20px;"></i>
+                            
+                        </div>
+                    </div>
+
+                </div>
+                
+            </div>
+        </div>
+        
+        
+
+
+
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/script.js"></script>
+        <script src="js/user.js"></script>
+    </body>
+</html>

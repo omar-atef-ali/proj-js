@@ -1,0 +1,100 @@
+body{
+    height: 1500px;
+}
+
+
+.cart_section{
+    width: 100%;
+    min-height: 100px;
+   
+    display: inline-block;
+    
+
+}
+.container_product{
+    width: 25%;
+    
+    float: left;
+    margin-top: 15px;
+    
+}
+
+.product{
+    width: 250px;
+}
+
+.total-price{
+    display: block;
+    
+    width: 100%;
+    margin-top: 40px;
+   
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    margin-left: 600px;
+
+    
+}
+.total{
+    display: inline-block;
+}
+
+
+
+
+.fav-litter{
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 45px;
+}
+.fav-litter div{
+    width: 50px;
+    margin: auto;
+    background-color: rgb(255, 0, 0);
+    height: 3px;
+    margin-top: -13px;
+    border-radius: 5px;
+}
+
+.fav-litter:hover div{
+    width: 70px;
+    transition: 1s;
+}
+
+
+.fav-section{
+    
+    width: 100%;
+    min-height: 300px;
+    display: inline-block;
+    
+}
+
+.fav-card{
+    background-color: rgb(233, 233, 233);
+    width:50% ;
+    float: left;
+    margin-left: 10px;
+    
+    
+    
+    
+}
+
+
+.fav-img{
+    height: 210px;
+    width: 150px;
+}
+
+.fav-content p{
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
